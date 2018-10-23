@@ -4,6 +4,6 @@ Randomly generates a D&D villain and spits it out for your use!  Currently in de
 ## To Do
 - Finish building out generated sentence structure.
 - Fill up various arrays of data.
-- Convert arrays to scalable, easily edited items (JSON potentially).
+- ~~Convert arrays to scalable, easily edited items (JSON potentially).~~
 - Attach to Twitter account with relevant keys & tokens.
 	- (ALTERNATIVELY) Create website.
