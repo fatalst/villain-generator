@@ -1,11 +1,11 @@
 {
-	"name": "villain generator",
+	"name": "villain-generator",
 	"version": "0.0.1",
 	"description": "Randomly generates a D&D villain.",
 	"main": "villaingen.js",
 	"scripts": {
 	"test": "echo \"Error: no test specified\" && exit 1",
-	"start": "node server.js"
+	"start": "node villaingen.js"
 	},
 	"author": "fatalst",
 	"license": "ISC",
