@@ -1,0 +1,71 @@
+{
+    "characteristic": [
+        "A sexy",
+        "A cold-hearted",
+        "A mysterious",
+        "A sympathetic",
+        "An unassuming",
+        "A hot-headed",
+        "A sadistic",
+        "A beautiful",
+        "A rude",
+        "A fanatical",
+        "A brainwashed"
+    ],
+
+    "people": [
+        "vampire",
+        "lich",
+        "medusa",
+        "green dragon",
+        "red dragon",
+        "sky giant",
+        "king",
+        "sorcerer",
+        "paladin",
+        "warlock",
+        "crime lord",
+        "cult leader",
+        "kobold"
+    ],
+
+    "backstories": [
+        "was betrayed by a close friend",
+        "was abandoned by their companions",
+        "lost their lover in a bandit attack",
+        "used to be an adventerer",
+        "was once a war hero",
+        "was once a notorious criminal",
+        "was almost killed by a hero",
+        "once betrayed a close friend",
+        "escaped a monster attack",
+        "was abanded by their god"
+    ],
+
+    "currentStories": [
+        "a serial killer",
+        "trying to take over the world",
+        "resurrecting an evil god",
+        "trying to become a god",
+        "running a cult",
+        "running a crime organization",
+        "corrupting the innocent",
+        "spying on their enemies"
+    ],
+
+    "goals": [
+        "get rich",
+        "get revenge",
+        "save the world",
+        "save their lover",
+        "save their child",
+        "save themself",
+        "stop someone worse",
+        "become powerful",
+        "defeat a rival",
+        "enact their final plan",
+        "resurrect their lover",
+        "resurrect their family",
+        "kill their enemies"
+    ]
+}
