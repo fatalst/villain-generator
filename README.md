@@ -29,8 +29,8 @@ A brainwashed warlock who was abandoned by a king and is now trying to kill the 
 A cannibalistic kobold who used to be an adventerer and is now committing mass murder in order to save their lover.
 
 ## To Do
-- Finish building out generated sentence structure.
-- Fill up various arrays of data.
+- ~~Finish building out generated sentence structure.~~
 - ~~Convert arrays to scalable, easily edited items (JSON potentially).~~
+- Fill up various arrays of data.
 - Attach to Twitter account with relevant keys & tokens.
 	- (ALTERNATIVELY) Create website.

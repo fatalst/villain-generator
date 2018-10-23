@@ -1,7 +1,13 @@
 var jsonData = require('./words.json');
 
 function randomCharacteristic(){
-  return jsonData.characteristic[Math.floor(Math.random() * jsonData.characteristic.length)];
+  var word = jsonData.characteristic[Math.floor(Math.random() * jsonData.characteristic.length)];
+  var firstLetter = word.split("")[0].toLowerCase();
+  if (firstLetter == "a" | firstLetter == "e" | firstLetter == "i" | firstLetter == "o" | firstLetter == "u"){
+    return 'An ' + word;
+  } else{
+    return 'A ' + word;
+  }
 }
 
 function randomPerson(){
@@ -24,11 +30,11 @@ function randomizer(){
   return (randomCharacteristic() + ' ' + randomPerson() + ' who ' + randomBackstory() + ' and is now ' + randomCurrent() + ' in order to ' + randomGoal() + '.');
 }
 
-// console.log("\n\n\n\n\n\n\n\n" + "YOUR VILLAIN IS:\n" + randomizer() + "\n\n\n\n\n\n\n\n");
+console.log("\n\n\n\n\n\n\n\n" + "YOUR VILLAIN IS:\n" + randomizer() + "\n\n\n\n\n\n\n\n");
 
-console.log(randomizer());
-console.log(randomizer());
-console.log(randomizer());
-console.log(randomizer());
-console.log(randomizer());
-console.log(randomizer());
+// console.log(randomizer());
+// console.log(randomizer());
+// console.log(randomizer());
+// console.log(randomizer());
+// console.log(randomizer());
+// console.log(randomizer());
