@@ -10,7 +10,17 @@
         "A beautiful",
         "A rude",
         "A fanatical",
-        "A brainwashed"
+        "A brainwashed",
+        "A cannibalistic",
+        "A masochistic",
+        "A wealthy",
+        "A seductive",
+        "An ugly",
+        "An angelic",
+        "An aggresive",
+        "A pacifistic",
+        "A buff",
+        "A fiery"
     ],
 
     "people": [
@@ -19,14 +29,46 @@
         "medusa",
         "green dragon",
         "red dragon",
-        "sky giant",
+        "cloud giant",
         "king",
         "sorcerer",
         "paladin",
         "warlock",
         "crime lord",
         "cult leader",
-        "kobold"
+        "kobold",
+        "wizard",
+        "hill giant",
+        "stone giant",
+        "frost giant",
+        "fire giant",
+        "demon",
+        "devil",
+        "druid",
+        "barbarian",
+        "doppleganger",
+        "priestess",
+        "cleric",
+        "fire elemental",
+        "water elemental",
+        "air eleemental",
+        "earth elemental",
+        "goblin",
+        "rakshasa",
+        "shifter",
+        "advisor",
+        "acolyte",
+        "gold dragon",
+        "blue dragon",
+        "white dragon",
+        "copper dragon",
+        "black dragon",
+        "brass dragon",
+        "bronze dragon",
+        "silver dragon",
+        "archmage",
+        "queen",
+        "assassin"
     ],
 
     "backstories": [
@@ -39,7 +81,21 @@
         "was almost killed by a hero",
         "once betrayed a close friend",
         "escaped a monster attack",
-        "was abanded by their god"
+        "was abandoned by their god",
+        "was corrupted by an evil god",
+        "was kidnapped by a cult",
+        "was kidnapped by a monster",
+        "was cursed by a powerful being",
+        "was killed by a hero",
+        "was abandoned by a hero",
+        "was abandoned by a king",
+        "was villified because of who they were",
+        "was villified over a misunderstanding",
+        "was villified because of their family",
+        "was transformed into a monster by a powerful being",
+        "was betrayed by their mentor",
+        "was wrongfully accused of murder",
+        "once murdered someone"
     ],
 
     "currentStories": [
@@ -50,7 +106,14 @@
         "running a cult",
         "running a crime organization",
         "corrupting the innocent",
-        "spying on their enemies"
+        "spying on their enemies",
+        "trying to kill the monarch",
+        "sacrificing people",
+        "collecting powerful artifacts",
+        "building an army",
+        "conquering a nation",
+        "razing villages",
+        "committing mass murder"
     ],
 
     "goals": [
@@ -66,6 +129,10 @@
         "enact their final plan",
         "resurrect their lover",
         "resurrect their family",
-        "kill their enemies"
+        "kill their enemies",
+        "entrap the heroes",
+        "entrap their enemies",
+        "prove their point",
+        "win a bet"
     ]
 }

@@ -1,5 +1,4 @@
-'use strict';
-let jsonData = require('./words.json');
+var jsonData = require('./words.json');
 
 function randomCharacteristic(){
   return jsonData.characteristic[Math.floor(Math.random() * jsonData.characteristic.length)];
@@ -25,5 +24,4 @@ function randomizer(){
   return (randomCharacteristic() + ' ' + randomPerson() + ' who ' + randomBackstory() + ' and is now ' + randomCurrent() + ' in order to ' + randomGoal() + '.');
 }
 
-
-console.log(randomizer());
+console.log("\n\n\n\n\n\n\n\n" + "YOUR VILLAIN IS:\n" + randomizer() + "\n\n\n\n\n\n\n\n");
