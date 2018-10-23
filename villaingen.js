@@ -24,4 +24,11 @@ function randomizer(){
   return (randomCharacteristic() + ' ' + randomPerson() + ' who ' + randomBackstory() + ' and is now ' + randomCurrent() + ' in order to ' + randomGoal() + '.');
 }
 
-console.log("\n\n\n\n\n\n\n\n" + "YOUR VILLAIN IS:\n" + randomizer() + "\n\n\n\n\n\n\n\n");
+// console.log("\n\n\n\n\n\n\n\n" + "YOUR VILLAIN IS:\n" + randomizer() + "\n\n\n\n\n\n\n\n");
+
+console.log(randomizer());
+console.log(randomizer());
+console.log(randomizer());
+console.log(randomizer());
+console.log(randomizer());
+console.log(randomizer());
