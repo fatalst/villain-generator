@@ -26,6 +26,7 @@
     "people": [
         "medusa",
         "king",
+        "knight",
         "sorcerer",
         "paladin",
         "warlock",
@@ -157,6 +158,9 @@
         "entrap the heroes",
         "entrap their enemies",
         "prove their point",
-        "win a bet"
+        "win a bet",
+        "destroy the world",
+        "commit genocide",
+        ""
     ]
 }
