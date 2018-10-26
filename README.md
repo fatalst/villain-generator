@@ -31,6 +31,6 @@ A cannibalistic kobold who used to be an adventerer and is now committing mass m
 ## To Do
 - ~~Finish building out generated sentence structure.~~
 - ~~Convert arrays to scalable, easily edited items (JSON potentially).~~
+- ~~Attach to Twitter account with relevant keys & tokens. (WEBSITE INSTEAD)~~
+	- ~~(ALTERNATIVELY) Create website.~~
 - Fill up various arrays of data.
-- Attach to Twitter account with relevant keys & tokens.
-	- (ALTERNATIVELY) Create website.
