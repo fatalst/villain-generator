@@ -20,7 +20,11 @@
         "aggresive",
         "pacifistic",
         "buff",
-        "fiery"
+        "fiery",
+        "devilish",
+        "cruel",
+        "sweet",
+        "quiet"
     ],
 
     "people": [
@@ -89,7 +93,7 @@
         "once killed a hero",
         "once abandoned a hero",
         "once abandoned a king",
-        "once transformed someone into a monter",
+        "once transformed someone into a monster",
         "once betrayed their mentor",
         "escaped a monster attack",
         "was abandoned by their god",
@@ -149,7 +153,7 @@
         "save their child",
         "save themself",
         "stop someone worse",
-        "become powerful",
+        "become more powerful",
         "defeat a rival",
         "enact their final plan",
         "resurrect their lover",
@@ -160,6 +164,9 @@
         "prove their point",
         "win a bet",
         "destroy the world",
-        "commit genocide"
+        "commit genocide",
+        "win back their lover",
+        "find a powerful artifact",
+        "punish their enemies"
     ]
 }
