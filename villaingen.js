@@ -1,11 +1,16 @@
 
 $(document).ready(function() {
+  randomizer();
   $( "#btn" ).click(function() {
-    $.getJSON('words.json', function(data) {
-      document.getElementById("id01").innerHTML = (randomCharacteristic(data) + ' ' + randomPerson(data) + ' who ' + randomBackstory(data) + ' and is now ' + randomCurrent(data) + ' in order to ' + randomGoal(data) + '.');
-    });
+    randomizer();
   });
 });
+
+function randomizer(){
+  $.getJSON('words.json', function(data) {
+    document.getElementById("id01").innerHTML = (randomCharacteristic(data) + ' ' + randomPerson(data) + ' who ' + randomBackstory(data) + ' and is now ' + randomCurrent(data) + ' in order to ' + randomGoal(data) + '.');
+  });
+}
 
 // randomly picks a characteristic from the json file and appends A or An to the front, depending on the first letter
 function randomCharacteristic(data){
