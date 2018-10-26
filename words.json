@@ -184,7 +184,10 @@
         "spy",
         "fey creature",
         "mind flayer",
-        "blacksmith"
+        "blacksmith",
+        "soldier",
+        "wizard",
+        "shopkeep"
     ],
 
     "backstories": [

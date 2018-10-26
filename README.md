@@ -17,7 +17,7 @@ A/An `characteristic` `kind of person` who `backstory` and is now `thing they ar
 
 **Characteristics:** 105/100
 
-**Kind of Person:** 77/100
+**Kind of Person:** 80/100
 
 **Backstories:** 51/100
 

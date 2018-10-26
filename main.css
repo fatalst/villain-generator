@@ -48,10 +48,11 @@ body{
 }
 
 #c{
-	margin-top: 100px;
+	margin-top: 70px;
 	font-size: 12px;
 	font-family: 'Vollkorn', serif;
 	text-transform: none;
+	margin-bottom: 20px;
 }
 
 a{
