@@ -9,13 +9,15 @@ body{
 	padding: 20px;
 	text-align: center;
 	margin: auto;
-	font-family: 'Archivo Black', sans-serif;
+	/*font-family: 'Archivo Black', sans-serif;*/
+	font-family: 'Vollkorn', serif;
 	text-transform: uppercase;
 }
 
 #title{
 	font-size: 20px;
 	letter-spacing: 1.5px;
+	font-family: 'Vollkorn', serif;
 }
 
 #vil{
@@ -24,11 +26,15 @@ body{
 	height:300px;
 	margin-top: 90px;
 	letter-spacing: 1.2px;
+	font-weight: 900;
+	font-style: italic;
 }
 
 #btn{
 	font-size: 20px;
-	text-decoration: underline;
+	width: 200px;
+	margin: auto;
+	font-weight: 600;
 }
 
 #btn:hover{

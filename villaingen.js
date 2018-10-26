@@ -8,7 +8,7 @@ $(document).ready(function() {
 
 function randomizer(){
   $.getJSON('words.json', function(data) {
-    document.getElementById("vil").innerHTML = (randomCharacteristic(data) + ' ' + randomPerson(data) + ' who had ' + randomBackstory(data) + ' and is now ' + randomCurrent(data) + ' in order to ' + randomGoal(data) + '.');
+    document.getElementById("vil").innerHTML = (randomCharacteristic(data) + ' ' + randomPerson(data) + ' who has ' + randomBackstory(data) + ' and is now ' + randomCurrent(data) + ' in order to ' + randomGoal(data) + '.');
   });
 }
 

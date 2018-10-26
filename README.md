@@ -15,11 +15,11 @@ A/An `characteristic` `kind of person` who `backstory` and is now `thing they ar
 ### Numbers
 ##### The goal right now is get each of these to 100.
 
-**Characteristics:** 25/100
+**Characteristics:** 105/100
 
-**Kind of Person:** 56/100
+**Kind of Person:** 62/100
 
-**Backstories:** 50/100
+**Backstories:** 51/100
 
 **Current Actions:** 30/100
 
