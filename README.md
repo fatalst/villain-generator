@@ -8,25 +8,22 @@ A/An `characteristic` `kind of person` who `backstory` and is now `thing they ar
 ### Examples
 *These were actually created by the generator so some might make not as much sense as others.*
 
-An aggresive crime lord who was almost killed by a hero and is now running a cult in order to stop someone worse.
+- A cannibalistic brass dragon who had been an infamous thief and is now assassinating powerful people in order to win back their lover.
+- A fiery warlock who had mentored a famous adventurer and is now committing mass murder in order to stop someone worse than them.
+- A wealthy paladin who had been betrayed by a close friend and is now waking up a powerful creature in order to defeat a rival.
 
-An ugly copper dragon who was abandoned by a hero and is now building an army in order to entrap their enemies.
+### Numbers
+##### The goal right now is get each of these to 100.
 
-A buff air eleemental who was abandoned by their companions and is now resurrecting an evil god in order to stop someone worse.
+**Characteristics:** 25/100
 
-A cold-hearted black dragon who was abandoned by a hero and is now building an army in order to prove their point.
+**Kind of Person:** 56/100
 
-A mysterious rakshasa who was betrayed by their mentor and is now corrupting the innocent in order to save themself.
+**Backstories:** 50/100
 
-A seductive cleric who was abandoned by a king and is now razing villages in order to resurrect their lover.
+**Current Actions:** 30/100
 
-A sympathetic lich who was transformed into a monster by a powerful being and is now conquering a nation in order to enact their final plan.
-
-A pacifistic brass dragon who once betrayed a close friend and is now corrupting the innocent in order to resurrect their family.
-
-A brainwashed warlock who was abandoned by a king and is now trying to kill the monarch in order to save themself.
-
-A cannibalistic kobold who used to be an adventerer and is now committing mass murder in order to save their lover.
+**Goals:** 22/100
 
 ## To Do
 - ~~Finish building out generated sentence structure.~~
