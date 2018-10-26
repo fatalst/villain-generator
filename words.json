@@ -53,7 +53,7 @@
         "doppleganger",
         "fire elemental",
         "water elemental",
-        "air eleemental",
+        "air elemental",
         "earth elemental",
         "goblin",
         "rakshasa",
@@ -160,7 +160,6 @@
         "prove their point",
         "win a bet",
         "destroy the world",
-        "commit genocide",
-        ""
+        "commit genocide"
     ]
 }
