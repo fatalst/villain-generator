@@ -17,13 +17,13 @@ A/An `characteristic` `kind of person` who `backstory` and is now `thing they ar
 
 **Characteristics:** 105/100
 
-**Kind of Person:** 62/100
+**Kind of Person:** 77/100
 
 **Backstories:** 51/100
 
-**Current Actions:** 30/100
+**Current Actions:** 57/100
 
-**Goals:** 22/100
+**Goals:** 47/100
 
 ## To Do
 - ~~Finish building out generated sentence structure.~~
