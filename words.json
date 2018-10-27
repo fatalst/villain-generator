@@ -187,7 +187,11 @@
         "blacksmith",
         "soldier",
         "wizard",
-        "shopkeep"
+        "shopkeep",
+        "undead",
+        "pirate",
+        "graverobber",
+        "executioner"
     ],
 
     "backstories": [
@@ -241,7 +245,12 @@
         "found a cursed artifact",
         "stolen a cursed artifact",
         "been a famous chef",
-        "escaped prison"
+        "escaped prison",
+        "smuggled contraband",
+        "enthralled by a monster",
+        "enthralled via magic",
+        "lost a limb in an accident",
+        "sold their soul to a powerful creature"
     ],
 
     "currentStories": [
@@ -298,10 +307,16 @@
         "invading other nations",
         "burning down forests",
         "burning down towns",
-        "wiping out populations",
+        "wiping out towns",
         "creating dangerous artifacts",
         "destroying magical artifacts",
-        "spreading a plague"
+        "spreading a plague",
+        "wiping out entire species",
+        "torturing civilians",
+        "torturing innocents",
+        "experimenting on civilians",
+        "experimenting on creatures",
+        "performing inhumane experiments"
     ],
 
     "goals": [
@@ -351,6 +366,13 @@
         "be respected",
         "find love",
         "prevent a prophecy from being fulfilled",
-        "fulfill a prophecy"
+        "fulfill a prophecy",
+        "create a powerful army"
+    ],
+    "adj": [
+        "scary",
+        "mean",
+        "monstrous",
+        "sexy"
     ]
 }

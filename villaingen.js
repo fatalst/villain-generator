@@ -9,6 +9,7 @@ $(document).ready(function() {
 function randomizer(){
   $.getJSON('words.json', function(data) {
     document.getElementById("vil").innerHTML = (randomCharacteristic(data) + ' ' + randomPerson(data) + ' who has ' + randomBackstory(data) + ' and is now ' + randomCurrent(data) + ' in order to ' + randomGoal(data) + '.');
+    document.getElementById("btn").innerHTML = ('Not ' + randomAdj(data) + ' enough!');
   });
 }
 
@@ -41,4 +42,8 @@ function randomCurrent(data){
 // randomly picks a goal from the json file
 function randomGoal(data){
   return data.goals[Math.floor(Math.random() * data.goals.length)];
+}
+
+function randomAdj(data){
+  return data.adj[Math.floor(Math.random() * data.adj.length)];
 }
