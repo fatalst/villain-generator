@@ -17,11 +17,11 @@ A/An `characteristic` `kind of person` who `backstory` and is now `thing they ar
 
 **Characteristics:** 105/100
 
-**Kind of Person:** 84/100
+**Kind of Person:** 107/100
 
 **Backstories:** 56/100
 
-**Current Actions:** 57/100
+**Current Actions:** 61/100
 
 **Goals:** 47/100
 

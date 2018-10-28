@@ -191,7 +191,31 @@
         "undead",
         "pirate",
         "graverobber",
-        "executioner"
+        "executioner",
+        "hero",
+        "diplomat",
+        "farmer",
+        "sailor",
+        "captain",
+        "writer",
+        "celestial",
+        "beholder",
+        "hag",
+        "witch",
+        "yaun-ti",
+        "merfolk",
+        "dracolich",
+        "demilich",
+        "revenant",
+        "death knight",
+        "ghost",
+        "dryad",
+        "genie",
+        "djinn",
+        "efreet",
+        "marid",
+        "dao",
+        "naga"
     ],
 
     "backstories": [
@@ -367,12 +391,25 @@
         "find love",
         "prevent a prophecy from being fulfilled",
         "fulfill a prophecy",
-        "create a powerful army"
+        "create a powerful army",
+        "destroy all magic",
+        "destroy all technology",
+        "destroy all knowledge",
+        "suppress all knowledge"
     ],
     "adj": [
         "scary",
         "mean",
         "monstrous",
-        "sexy"
+        "sexy",
+        "dumb",
+        "sympathetic",
+        "hot",
+        "lame",
+        "weird",
+        "dangerous",
+        "evil",
+        "spooky",
+        "complex"
     ]
 }
