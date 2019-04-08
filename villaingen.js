@@ -21,7 +21,7 @@ function randomizer(json){
   $.getJSON(json, function(data) {
     document.getElementById("vil").innerHTML = (randomCharacteristic(data) + ' ' + randomPerson(data) + ' who has ' + randomBackstory(data) + ' and is now ' + randomCurrent(data) + ' in order to ' + randomGoal(data) + '.');
   });
-  $getJSON('words.json', function(data) {
+  $.getJSON('words.json', function(data) {
     document.getElementById("btn").innerHTML = ('Not ' + randomAdj(data) + ' enough!');
   });
 }

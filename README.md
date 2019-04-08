@@ -8,6 +8,7 @@ A/An `characteristic` `kind of person` who `backstory` and is now `thing they ar
 ### Examples
 *These were actually created by the generator so some might make not as much sense as others.*
 
+###### Fantasy
 - A cannibalistic brass dragon who had been an infamous thief and is now assassinating powerful people in order to win back their lover.
 - A fiery warlock who had mentored a famous adventurer and is now committing mass murder in order to stop someone worse than them.
 - A wealthy paladin who had been betrayed by a close friend and is now waking up a powerful creature in order to defeat a rival.
