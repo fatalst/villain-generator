@@ -1,5 +1,5 @@
 # Villain Generator
-Randomly generates a D&D villain and spits it out for your use!  Currently in development as a twitter bot, but may be adapted to be a website instead.  We'll see :)
+Randomly generates a D&D/TTRPG villain and spits it out for your use!
 
 ## Generator Parts
 ### Structure
@@ -8,15 +8,20 @@ A/An `characteristic` `kind of person` who `backstory` and is now `thing they ar
 ### Examples
 *These were actually created by the generator so some might make not as much sense as others.*
 
-###### Fantasy
+#### Fantasy
 - A cannibalistic brass dragon who had been an infamous thief and is now assassinating powerful people in order to win back their lover.
 - A fiery warlock who had mentored a famous adventurer and is now committing mass murder in order to stop someone worse than them.
 - A wealthy paladin who had been betrayed by a close friend and is now waking up a powerful creature in order to defeat a rival.
 
-### Numbers
-##### The goal right now is get each of these to 100.
+#### Sci-fi
+- A melancholy smuggler who has kidnapped people and is now spreading a plague in order to save their child.
+- A gracious robot who has betrayed a close friend and is now starting a revolution in order to enact their final plan.
+- An impulsive mercenary who has murdered someone and is now experimenting on civilians in order to get revenge on the heroes.
 
-###### Fantasy
+### Numbers
+*The goal right now is get each of these to 100.*
+
+#### Fantasy
 
 **Characteristics:** 105/100
 
@@ -28,17 +33,17 @@ A/An `characteristic` `kind of person` who `backstory` and is now `thing they ar
 
 **Goals:** 59/100
 
-###### Sci-fi
+#### Sci-fi
 
 **Characteristics:** 105/100
 
-**Kind of Person:** 33/100
+**Kind of Person:** 34/100
 
-**Backstories:** 31/100
+**Backstories:** 52/100
 
-**Current Actions:** 32/100
+**Current Actions:** 61/100
 
-**Goals:** 43/100
+**Goals:** 51/100
 
 ## To Do
 - ~~Finish building out generated sentence structure.~~
