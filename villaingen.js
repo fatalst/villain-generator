@@ -2,6 +2,10 @@
 $(document).ready(function() {
   var json = 'fantasy.json';
   randomizer(json);
+  $( "#btn" ).click(function() {
+    randomizer(json);
+    newButton();
+  });
   $( "#swt" ).click(function() {
     if(json === 'fantasy.json'){
       json = 'scifi.json';
@@ -12,15 +16,15 @@ $(document).ready(function() {
     }
     randomizer(json);
   });
-  $( "#btn" ).click(function() {
-    randomizer(json);
-  });
 });
 
 function randomizer(json){
   $.getJSON(json, function(data) {
     document.getElementById("vil").innerHTML = (randomCharacteristic(data) + ' ' + randomPerson(data) + ' who has ' + randomBackstory(data) + ' and is now ' + randomCurrent(data) + ' in order to ' + randomGoal(data) + '.');
   });
+}
+
+function newButton(){
   $.getJSON('words.json', function(data) {
     document.getElementById("btn").innerHTML = ('Not ' + randomAdj(data) + ' enough!');
   });

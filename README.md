@@ -18,10 +18,10 @@ A/An `characteristic` `kind of person` who `backstory` and is now `thing they ar
 - A gracious robot who has betrayed a close friend and is now starting a revolution in order to enact their final plan.
 - An impulsive mercenary who has murdered someone and is now experimenting on civilians in order to get revenge on the heroes.
 
-### Numbers
-*The goal right now is get each of these to 100.*
+## Numbers
+*The goal right now is get each of these to 100+.*
 
-#### Fantasy
+### Fantasy
 
 **Characteristics:** 105/100
 
@@ -33,11 +33,11 @@ A/An `characteristic` `kind of person` who `backstory` and is now `thing they ar
 
 **Goals:** 59/100
 
-#### Sci-fi
+### Sci-fi
 
 **Characteristics:** 105/100
 
-**Kind of Person:** 34/100
+**Kind of Person:** 36/100
 
 **Backstories:** 52/100
 
