@@ -1,14 +1,27 @@
 
 $(document).ready(function() {
-  randomizer();
+  var json = 'fantasy.json';
+  randomizer(json);
+  $( "#swt" ).click(function() {
+    if(json === 'fantasy.json'){
+      json = 'scifi.json';
+      document.getElementById("swt").innerHTML = ('Switch to fantasy villains.');
+    } else{
+      json = 'fantasy.json';
+      document.getElementById("swt").innerHTML = ('Switch to sci-fi villains.');
+    }
+    randomizer(json);
+  });
   $( "#btn" ).click(function() {
-    randomizer();
+    randomizer(json);
   });
 });
 
-function randomizer(){
-  $.getJSON('words.json', function(data) {
+function randomizer(json){
+  $.getJSON(json, function(data) {
     document.getElementById("vil").innerHTML = (randomCharacteristic(data) + ' ' + randomPerson(data) + ' who has ' + randomBackstory(data) + ' and is now ' + randomCurrent(data) + ' in order to ' + randomGoal(data) + '.');
+  });
+  $getJSON('words.json', function(data) {
     document.getElementById("btn").innerHTML = ('Not ' + randomAdj(data) + ' enough!');
   });
 }

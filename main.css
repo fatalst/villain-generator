@@ -30,17 +30,14 @@ body{
 	font-style: italic;
 }
 
-#btn{
+.btn{
 	font-size: 20px;
 	width: 400px;
 	margin: auto;
 }
 
-#btn:hover{
+.btn:hover{
 	text-decoration: underline;
-}
-
-#btn:hover{
 	cursor: pointer;
 	-webkit-touch-callout: none; /* iOS Safari */
     -webkit-user-select: none; /* Safari */

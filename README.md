@@ -15,15 +15,29 @@ A/An `characteristic` `kind of person` who `backstory` and is now `thing they ar
 ### Numbers
 ##### The goal right now is get each of these to 100.
 
+###### Fantasy
+
 **Characteristics:** 105/100
 
-**Kind of Person:** 107/100
+**Kind of Person:** 108/100
 
 **Backstories:** 56/100
 
-**Current Actions:** 61/100
+**Current Actions:** 70/100
 
-**Goals:** 47/100
+**Goals:** 59/100
+
+###### Sci-fi
+
+**Characteristics:** 105/100
+
+**Kind of Person:** 33/100
+
+**Backstories:** 31/100
+
+**Current Actions:** 32/100
+
+**Goals:** 43/100
 
 ## To Do
 - ~~Finish building out generated sentence structure.~~
@@ -31,3 +45,4 @@ A/An `characteristic` `kind of person` who `backstory` and is now `thing they ar
 - ~~Attach to Twitter account with relevant keys & tokens. (WEBSITE INSTEAD)~~
 	- ~~(ALTERNATIVELY) Create website.~~
 - Fill up various arrays of data.
+	- ~~ Add sci-fi option.~~
