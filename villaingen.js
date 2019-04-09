@@ -46,7 +46,7 @@ function newButton(){
 
 // randomly picks a characteristic from the json file and appends A or An to the front, depending on the first letter
 function randomCharacteristic(data){
-  var word = data.characteristic[chance.integer({min: 0, max: data.characteristic.length-1})];
+  var word = data.characteristic[chance.integer({min: 0, max: (data.characteristic.length-1)})];
   var firstLetter = word.split("")[0].toLowerCase();
   if (firstLetter == "a" | firstLetter == "e" | firstLetter == "i" | firstLetter == "o" | firstLetter == "u"){
     return 'An ' + word;
