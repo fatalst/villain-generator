@@ -28,6 +28,7 @@ function randomizer(json){
   var str1, str2;
   $.getJSON('json/words.json', function(data) {
     str1 = randomCharacteristic(data);
+    if (typeof str1 === 'undefined'){ str1 = 'A ' + data.characteristic[0]; }
   });
   $.getJSON(json, function(data) {
     str2 = (' ' + data.people[chance.integer({min: 0, max: (data.people.length-1)})] +
@@ -48,14 +49,10 @@ function newButton(){
 function randomCharacteristic(data){
   var len = data.characteristic.length - 1;
   var word = data.characteristic[chance.integer({min: 0, max: len})];
-  var final;
-  if (typeof word === 'undefined'){ word = data.characteristic[0]; }
   var firstLetter = word.split("")[0].toLowerCase();
   if (firstLetter == "a" | firstLetter == "e" | firstLetter == "i" | firstLetter == "o" | firstLetter == "u"){
-    final = 'An ' + word;
+    return'An ' + word;
   } else{
-    final = 'A ' + word;
+    return 'A ' + word;
   }
-  if (typeof word !== 'undefined'){ return final; }
-  else { return ('A ' + data.characteristic[0]); }
 }
