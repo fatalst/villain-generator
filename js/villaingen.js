@@ -48,11 +48,14 @@ function newButton(){
 function randomCharacteristic(data){
   var len = data.characteristic.length - 1;
   var word = data.characteristic[chance.integer({min: 0, max: len})];
+  var final;
   if (typeof word === 'undefined'){ word = data.characteristic[0]; }
   var firstLetter = word.split("")[0].toLowerCase();
   if (firstLetter == "a" | firstLetter == "e" | firstLetter == "i" | firstLetter == "o" | firstLetter == "u"){
-    return 'An ' + word;
+    final = 'An ' + word;
   } else{
-    return 'A ' + word;
+    final = 'A ' + word;
   }
+  if (typeof word !== 'undefined'){ return final; }
+  else { return ('A ' + data.characteristic[0]); }
 }
