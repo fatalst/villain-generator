@@ -9,7 +9,6 @@ body{
 	padding: 20px;
 	text-align: center;
 	margin: auto;
-	/*font-family: 'Archivo Black', sans-serif;*/
 	font-family: 'Vollkorn', serif;
 	text-transform: uppercase;
 }
@@ -20,11 +19,18 @@ body{
 	font-family: 'Vollkorn', serif;
 }
 
+#vbox{
+	display: flex;
+	align-items: center;
+	align-content: center;
+	height: 300px;
+	margin-top: 60px;
+	margin-bottom: 50px;
+}
+
 #vil{
 	font-size: 35px;
 	line-height: 50px;
-	height:300px;
-	margin-top: 90px;
 	letter-spacing: 1.2px;
 	font-weight: 900;
 	font-style: italic;
