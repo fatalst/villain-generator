@@ -56,7 +56,6 @@ function randomCharacteristic(data){
   var len = data.characteristic.length - 1;
   var word = data.characteristic[chance.integer({min: 0, max: len})];
   var firstLetter = word.split("")[0].toLowerCase();
-  console.log(word);
   if (firstLetter == 'a' || firstLetter == 'e' || firstLetter == 'i' || firstLetter == 'o' || firstLetter == 'u'){
     return 'An ' + word;
   } else{
