@@ -1,41 +1,47 @@
 // on load, set json to the fantasy terms, print the first random line
 // & create button onclick events
 $(document).ready(function() {
-  var json = 'json/fantasy.json';
-  randomizer(json);
+  var json = 'json/words.json';
+  var fantasy = true;
+  randomizer(json, fantasy);
   newButton();
 
   // when button is clicked, create new random line & button text
   $( "#btn" ).click(function() {
-    randomizer(json);
+    randomizer(json, fantasy);
     newButton();
   });
 
   //
   $( "#swt" ).click(function() {
-    if(json === 'json/fantasy.json'){
-      json = 'json/scifi.json';
+    if(fantasy == true){
+      fantasy = false;
       document.getElementById("swt").innerHTML = ('Switch to fantasy villains.');
     } else{
-      json = 'fantasy.json';
+      fantasy = true;
       document.getElementById("swt").innerHTML = ('Switch to sci-fi villains.');
     }
-    randomizer(json);
+    randomizer(json, fantasy);
   });
 });
 
-function randomizer(json){
-  var str1, str2;
-  $.getJSON('json/words.json', function(data) {
-    str1 = randomCharacteristic(data);
-    if (typeof str1 === 'undefined'){ str1 = 'A ' + data.characteristic[0]; }
-  });
+function randomizer(json, fantasy){
   $.getJSON(json, function(data) {
-    str2 = (' ' + data.people[chance.integer({min: 0, max: (data.people.length-1)})] +
-        ' who has ' + data.backstories[chance.integer({min: 0, max: (data.backstories.length-1)})] +
-        ' and is now ' + data.currentStories[chance.integer({min: 0, max: (data.currentStories.length-1)})] +
-        ' in order to ' + data.goals[chance.integer({min: 0, max: (data.goals.length-1)})] + '.');
-    document.getElementById("vil").innerHTML = str1 + str2;
+    if(fantasy == true){
+      var str = (randomCharacteristic(data, fantasy) +
+          ' ' + data.peopleF[chance.integer({min: 0, max: (data.peopleF.length-1)})] +
+          ' who has ' + data.backstoriesF[chance.integer({min: 0, max: (data.backstoriesF.length-1)})] +
+          ' and is now ' + data.currentStoriesF[chance.integer({min: 0, max: (data.currentStoriesF.length-1)})] +
+          ' in order to ' + data.goalsF[chance.integer({min: 0, max: (data.goalsF.length-1)})] + '.');
+      document.getElementById("vil").innerHTML = str;
+    } else{
+      var str = (randomCharacteristic(data) +
+          ' ' + data.peopleS[chance.integer({min: 0, max: (data.peopleS.length-1)})] +
+          ' who has ' + data.backstoriesS[chance.integer({min: 0, max: (data.backstoriesS.length-1)})] +
+          ' and is now ' + data.currentStoriesS[chance.integer({min: 0, max: (data.currentStoriesS.length-1)})] +
+          ' in order to ' + data.goalsS[chance.integer({min: 0, max: (data.goalsS.length-1)})] + '.');
+      document.getElementById("vil").innerHTML = str;
+    }
   });
 }
 
@@ -50,8 +56,9 @@ function randomCharacteristic(data){
   var len = data.characteristic.length - 1;
   var word = data.characteristic[chance.integer({min: 0, max: len})];
   var firstLetter = word.split("")[0].toLowerCase();
-  if (firstLetter == "a" | firstLetter == "e" | firstLetter == "i" | firstLetter == "o" | firstLetter == "u"){
-    return'An ' + word;
+  console.log(word);
+  if (firstLetter == 'a' || firstLetter == 'e' || firstLetter == 'i' || firstLetter == 'o' || firstLetter == 'u'){
+    return 'An ' + word;
   } else{
     return 'A ' + word;
   }
