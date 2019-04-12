@@ -49,4 +49,4 @@ A/An `characteristic` `kind of person` who `backstory` and is now `thing they ar
 - ~~Attach to Twitter account with relevant keys & tokens. (WEBSITE INSTEAD)~~
 	- ~~(ALTERNATIVELY) Create website.~~
 - Fill up various arrays of data.
-	- ~~ Add sci-fi option.~~
+	- ~~Add sci-fi option.~~
