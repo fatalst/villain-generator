@@ -40,7 +40,7 @@ function randomizer(json, fantasy){
       current = data.currentStoriesS[chance.integer({min: 0, max: (data.currentStoriesS.length-1)})];
       goal = data.goalsS[chance.integer({min: 0, max: (data.goalsS.length-1)})];
     }
-    document.getElementById("vil").innerHTML = (chara + ' ' + per + ' who has ' + back + ' and is now ' + current + ' in order to ' + goal + '.');
+    document.getElementById("vil").innerHTML = (chara + ' ' + per + ' who ' + back + ' and is now ' + current + ' in order to ' + goal + '.');
   });
 }
 
