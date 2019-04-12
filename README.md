@@ -31,7 +31,7 @@ A/An `characteristic` `kind of person` who `backstory` and is now `thing they ar
 
 **Current Actions:** 71/100
 
-**Goals:** 59/100
+**Goals:** 63/100
 
 ### Sci-fi
 
