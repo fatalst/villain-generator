@@ -21,27 +21,25 @@ A/An `characteristic` `kind of person` who `backstory` and is now `thing they ar
 ## Numbers
 *The goal right now is get each of these to 100+.*
 
+**Characteristics:** 109/100
+
 ### Fantasy
 
-**Characteristics:** 105/100
+**Kind of Person:** 110/100
 
-**Kind of Person:** 108/100
+**Backstories:** 59/100
 
-**Backstories:** 56/100
-
-**Current Actions:** 70/100
+**Current Actions:** 71/100
 
 **Goals:** 59/100
 
 ### Sci-fi
 
-**Characteristics:** 105/100
+**Kind of Person:** 74/100
 
-**Kind of Person:** 36/100
+**Backstories:** 62/100
 
-**Backstories:** 52/100
-
-**Current Actions:** 61/100
+**Current Actions:** 65/100
 
 **Goals:** 51/100
 

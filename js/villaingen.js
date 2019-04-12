@@ -4,12 +4,12 @@ $(document).ready(function() {
   var json = 'json/words.json';
   var fantasy = true;
   randomizer(json, fantasy);
-  newButton();
+  newButton(json);
 
   // when button is clicked, create new random line & button text
   $( "#btn" ).click(function() {
     randomizer(json, fantasy);
-    newButton();
+    newButton(json);
   });
 
   //
@@ -27,26 +27,25 @@ $(document).ready(function() {
 
 function randomizer(json, fantasy){
   $.getJSON(json, function(data) {
+    var chara = randomCharacteristic(data, fantasy);
+    var per, back, current, goal;
     if(fantasy == true){
-      var str = (randomCharacteristic(data, fantasy) +
-          ' ' + data.peopleF[chance.integer({min: 0, max: (data.peopleF.length-1)})] +
-          ' who has ' + data.backstoriesF[chance.integer({min: 0, max: (data.backstoriesF.length-1)})] +
-          ' and is now ' + data.currentStoriesF[chance.integer({min: 0, max: (data.currentStoriesF.length-1)})] +
-          ' in order to ' + data.goalsF[chance.integer({min: 0, max: (data.goalsF.length-1)})] + '.');
-      document.getElementById("vil").innerHTML = str;
+      per = data.peopleF[chance.integer({min: 0, max: (data.peopleF.length-1)})];
+      back = data.backstoriesF[chance.integer({min: 0, max: (data.backstoriesF.length-1)})];
+      current = data.currentStoriesF[chance.integer({min: 0, max: (data.currentStoriesF.length-1)})];
+      goal = data.goalsF[chance.integer({min: 0, max: (data.goalsF.length-1)})];
     } else{
-      var str = (randomCharacteristic(data) +
-          ' ' + data.peopleS[chance.integer({min: 0, max: (data.peopleS.length-1)})] +
-          ' who has ' + data.backstoriesS[chance.integer({min: 0, max: (data.backstoriesS.length-1)})] +
-          ' and is now ' + data.currentStoriesS[chance.integer({min: 0, max: (data.currentStoriesS.length-1)})] +
-          ' in order to ' + data.goalsS[chance.integer({min: 0, max: (data.goalsS.length-1)})] + '.');
-      document.getElementById("vil").innerHTML = str;
+      per = data.peopleS[chance.integer({min: 0, max: (data.peopleS.length-1)})];
+      back = data.backstoriesS[chance.integer({min: 0, max: (data.backstoriesS.length-1)})];
+      current = data.currentStoriesS[chance.integer({min: 0, max: (data.currentStoriesS.length-1)})];
+      goal = data.goalsS[chance.integer({min: 0, max: (data.goalsS.length-1)})];
     }
+    document.getElementById("vil").innerHTML = (chara + ' ' + per + ' who has ' + back + ' and is now ' + current + ' in order to ' + goal + '.');
   });
 }
 
-function newButton(){
-  $.getJSON('json/words.json', function(data) {
+function newButton(json){
+  $.getJSON(json, function(data) {
     document.getElementById("btn").innerHTML = ('Not ' + data.adj[chance.integer({min: 0, max: (data.adj.length-1)})] + ' enough!');
   });
 }
