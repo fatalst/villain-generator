@@ -14,7 +14,7 @@ $(document).ready(function() {
 
   //
   $( "#swt" ).click(function() {
-    if(fantasy == true){
+    if(fantasy){
       fantasy = false;
       document.getElementById("swt").innerHTML = ('Switch to fantasy villains.');
     } else{
@@ -23,25 +23,78 @@ $(document).ready(function() {
     }
     randomizer(json, fantasy);
   });
+
+  $(document).on('click','#chara',function(){
+    $.getJSON(json, function(data) {
+      document.getElementById("chara").innerHTML = randomCharacteristic(data);
+    });
+  });
+
+  $(document).on('click','#per',function(){
+    $.getJSON(json, function(data) {
+      document.getElementById("per").innerHTML = randomPerson(data, fantasy);
+    });
+  });
+
+  $(document).on('click','#back',function(){
+    $.getJSON(json, function(data) {
+      document.getElementById("back").innerHTML = randomBackstory(data, fantasy);
+    });
+  });
+
+  $(document).on('click','#current',function(){
+    $.getJSON(json, function(data) {
+      document.getElementById("current").innerHTML = randomCurrent(data, fantasy);
+    });
+  });
+
+  $(document).on('click','#goal',function(){
+    $.getJSON(json, function(data) {
+      document.getElementById("goal").innerHTML = randomGoal(data, fantasy);
+    });
+  });
+
 });
 
 function randomizer(json, fantasy){
   $.getJSON(json, function(data) {
-    var chara = randomCharacteristic(data, fantasy);
-    var per, back, current, goal;
-    if(fantasy == true){
-      per = data.peopleF[chance.integer({min: 0, max: (data.peopleF.length-1)})];
-      back = data.backstoriesF[chance.integer({min: 0, max: (data.backstoriesF.length-1)})];
-      current = data.currentStoriesF[chance.integer({min: 0, max: (data.currentStoriesF.length-1)})];
-      goal = data.goalsF[chance.integer({min: 0, max: (data.goalsF.length-1)})];
-    } else{
-      per = data.peopleS[chance.integer({min: 0, max: (data.peopleS.length-1)})];
-      back = data.backstoriesS[chance.integer({min: 0, max: (data.backstoriesS.length-1)})];
-      current = data.currentStoriesS[chance.integer({min: 0, max: (data.currentStoriesS.length-1)})];
-      goal = data.goalsS[chance.integer({min: 0, max: (data.goalsS.length-1)})];
-    }
-    document.getElementById("vil").innerHTML = (chara + ' ' + per + ' who ' + back + ' and is now ' + current + ' in order to ' + goal + '.');
+    document.getElementById("vil").innerHTML = ('<span id="chara">' + randomCharacteristic(data) +
+      '</span> <span id="per">' + randomPerson(data, fantasy) + '</span> who <span id="back">' +
+      randomBackstory(data, fantasy) + '</span> and is now <span id="current">' + randomCurrent(data, fantasy) +
+      '</span> in order to <span id="goal">' + randomGoal(data, fantasy) + '</span>.');
   });
+}
+
+function randomPerson(data, fantasy){
+  if(fantasy){
+    return data.peopleF[chance.integer({min: 0, max: (data.peopleF.length-1)})];
+  }else{
+    return data.peopleS[chance.integer({min: 0, max: (data.peopleS.length-1)})];
+  }
+}
+
+function randomBackstory(data, fantasy){
+  if(fantasy){
+    return data.backstoriesF[chance.integer({min: 0, max: (data.backstoriesF.length-1)})];
+  }else{
+    return data.backstoriesS[chance.integer({min: 0, max: (data.backstoriesS.length-1)})];
+  }
+}
+
+function randomCurrent(data, fantasy){
+  if(fantasy){
+    return data.currentStoriesF[chance.integer({min: 0, max: (data.currentStoriesF.length-1)})];
+  }else{
+    return data.currentStoriesS[chance.integer({min: 0, max: (data.currentStoriesS.length-1)})];
+  }
+}
+
+function randomGoal(data, fantasy){
+  if(fantasy){
+    return data.goalsF[chance.integer({min: 0, max: (data.goalsF.length-1)})];
+  }else{
+    return data.goalsS[chance.integer({min: 0, max: (data.goalsS.length-1)})];
+  }
 }
 
 function newButton(json){

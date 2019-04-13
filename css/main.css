@@ -17,6 +17,7 @@ body{
 	font-size: 20px;
 	letter-spacing: 1.5px;
 	font-family: 'Vollkorn', serif;
+	margin-bottom: 0px;
 }
 
 #vbox{
@@ -24,7 +25,7 @@ body{
 	align-items: center;
 	align-content: center;
 	height: 300px;
-	margin-top: 60px;
+	margin-top: 80px;
 	margin-bottom: 50px;
 }
 
@@ -40,6 +41,7 @@ body{
 	font-size: 20px;
 	width: 400px;
 	margin: auto;
+	font-weight: none;
 }
 
 #btn:hover{
@@ -53,6 +55,11 @@ body{
             user-select: none;
 }
 
+#chara:hover, #per:hover, #back:hover, #current:hover, #goal:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
 #c{
 	font-size: 12px;
 	font-family: 'Vollkorn', serif;
@@ -61,6 +68,11 @@ body{
 	bottom: 20px;
 	position: fixed;
 	width: 100%;
+}
+
+#info{
+	font-size: 14px;
+	margin-bottom: 20px;
 }
 
 a{

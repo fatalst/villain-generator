@@ -300,7 +300,11 @@
         "freelance spy",
         "double agent",
         "rebel",
-        "sharpshooter"
+        "sharpshooter",
+        "psionic",
+        "psychic",
+        "superhuman",
+        "mutated alien"
     ],
 
     "backstoriesF": [
@@ -374,7 +378,7 @@
         "lost their lover in an attack",
         "was a war hero",
         "was a notorious criminal",
-        "nearly been killed by a hero",
+        "was nearly killed by a hero",
         "betrayed a close friend",
         "corrupted another person",
         "kidnapped people",
@@ -434,8 +438,28 @@
         "discovered their memories are false",
         "discovered their mentor killed their parents",
         "discovered their mentor kidnapped them as a child",
-        "disagnosed with a terminal disease",
-        "learned they only had a year to live"
+        "was diagnosed with a terminal disease",
+        "learned they only had a year to live",
+        "was a wanted fugitive",
+        "discovered an evil plot",
+        "invented a new technology",
+        "sold their corporation",
+        "created a corporation",
+        "lost their corporation to a hostile takeover",
+        "lost their riches",
+        "lost their inheritance",
+        "was a social pariah",
+        "was disowned by their family",
+        "was unfairly fired",
+        "was unfairly stripped of their position",
+        "was unfairly stripped of their title",
+        "faked their own death",
+        "was almost killed by an assassin",
+        "was almost killed by their close friend",
+        "was almost killed by their mentor",
+        "was almost killed by a rival",
+        "was almost killed by their sibling",
+        "was almost killed by their lover"
     ],
 
     "currentStoriesF": [
@@ -543,10 +567,10 @@
         "executing their critics",
         "quashing a revolution",
         "freeing prisoners",
-        "robbing travelers",
+        "robbing civilians",
         "poisoning civilians",
         "invading other nations",
-        "spreading a plague",
+        "spreading a virus",
         "wiping out entire species",
         "torturing civilians",
         "torturing innocents",
@@ -587,7 +611,15 @@
         "experimenting on humans",
         "experimenting on cyborgs",
         "cloning people",
-        "taking over governments"
+        "taking over governments",
+        "robbing corporations",
+        "oppressing civilians",
+        "creating dangerous technology",
+        "destroying planets",
+        "razing planets",
+        "monopolizing the water supply",
+        "monopolizing the food supply",
+        "monopolizing technology"
     ],
 
     "goalsF": [

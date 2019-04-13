@@ -37,7 +37,7 @@ A/An `characteristic` `kind of person` who `backstory` and is now `thing they ar
 
 **Kind of Person:** 75/100
 
-**Backstories:** 70/100
+**Backstories:** 90/100
 
 **Current Actions:** 65/100
 
