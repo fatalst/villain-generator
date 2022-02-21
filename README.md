@@ -1,7 +1,7 @@
 # Villain Generator
 Randomly generates a fantasy or sci-fi villain and spits it out for your use!
 
-![GitHub last commit](https://img.shields.io/github/last-commit/fatalst/villain-generator?color=%23eeeaf2) ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/fatalst/villain-generator?color=%23eeeaf2&include_prereleases)
+![GitHub last commit](https://img.shields.io/github/last-commit/fatalst/villain-generator?color=%23eeeaf2) ![GitHub release (latest by date)](https://img.shields.io/github/v/release/fatalst/villain-generator?color=%23eeeaf2)
 
 ## Generator Parts
 ### Structure
