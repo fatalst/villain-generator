@@ -1,5 +1,5 @@
-{
-    "characteristic": [
+const words = {
+    characteristic: [
         "sexy",
         "cold-hearted",
         "mysterious",
@@ -108,10 +108,11 @@
         "anonymous",
         "shady",
         "guarded",
-        "cryptic"
+        "cryptic",
+        "disgraced"
     ],
 
-    "peopleF": [
+    peopleF: [
         "sorcerer",
         "headless horseman",
         "paladin",
@@ -224,7 +225,7 @@
         "guard"
     ],
 
-    "peopleS": [
+    peopleS: [
         "robot",
         "cyborg",
         "AI",
@@ -304,10 +305,20 @@
         "psionic",
         "psychic",
         "superhuman",
-        "mutated alien"
+        "mutated alien",
+        "alien hacker",
+        "AI hacker",
+        "space commando",
+        "space marine",
+        "alien commando",
+        "billionaire",
+        "queen",
+        "monarch",
+        "prime minister",
+        "king"
     ],
 
-    "backstoriesF": [
+    backstoriesF: [
         "was betrayed by a close friend",
         "was abandoned by their companions",
         "lost their lover in an attack",
@@ -369,7 +380,7 @@
         "was sacrificed to an evil lord"
     ],
 
-    "backstoriesS": [
+    backstoriesS: [
         "was accused of unethical testing",
         "was fired for unethical practices",
         "was fired for illegal practices",
@@ -462,7 +473,7 @@
         "was almost killed by their lover"
     ],
 
-    "currentStoriesF": [
+    currentStoriesF: [
         "a serial killer",
         "trying to take over the world",
         "resurrecting an evil god",
@@ -536,7 +547,7 @@
         "starting a revolution"
     ],
 
-    "currentStoriesS": [
+    currentStoriesS: [
         "a serial killer",
         "running a crime organization",
         "corrupting the innocent",
@@ -622,7 +633,7 @@
         "monopolizing technology"
     ],
 
-    "goalsF": [
+    goalsF: [
         "get rich",
         "get revenge",
         "save the world",
@@ -688,7 +699,7 @@
         "defeat a god"
     ],
 
-    "goalsS": [
+    goalsS: [
         "get rich",
         "get revenge",
         "save their lover",
@@ -742,7 +753,7 @@
         "create galactic peace"
     ],
     
-    "adj": [
+    adj: [
         "scary",
         "mean",
         "monstrous",

@@ -1,6 +1,12 @@
+:root{
+	--text: #26123a;
+	--background: #eeeaf2;
+}
+
 body{
-	background-color: #eeeaf2;
-	color: #26123a;
+	background-color: var(--background);
+	color: var(--text);
+	transition: all .2s;
 }
 
 #box{
@@ -9,14 +15,22 @@ body{
 	padding: 20px;
 	text-align: center;
 	margin: auto;
-	font-family: 'Vollkorn', serif;
 	text-transform: uppercase;
+	display: flex;
+	flex-direction: column;
+}
+
+.fantasy{
+	font-family: 'Vollkorn', serif;
+}
+
+.sci-fi{
+	font-family: 'Nunito', sans-serif;
 }
 
 #title{
 	font-size: 20px;
 	letter-spacing: 1.5px;
-	font-family: 'Vollkorn', serif;
 	margin-bottom: 0px;
 }
 
@@ -39,9 +53,7 @@ body{
 
 #btn{
 	font-size: 20px;
-	width: 400px;
-	margin: auto;
-	font-weight: none;
+	font-weight: normal;
 }
 
 #btn:hover{
@@ -55,14 +67,13 @@ body{
             user-select: none;
 }
 
-#chara:hover, #per:hover, #back:hover, #current:hover, #goal:hover{
+#characteristic:hover, #person:hover, #backstory:hover, #current:hover, #goal:hover{
 	text-decoration: underline;
 	cursor: pointer;
 }
 
 #c{
 	font-size: 12px;
-	font-family: 'Vollkorn', serif;
 	text-transform: none;
 	text-align: center;
 	bottom: 20px;
@@ -75,7 +86,12 @@ body{
 	margin-bottom: 20px;
 }
 
+.tippy-box[data-theme~='villainous'] {
+	background-color: var(--text);
+	color: var(--background);
+}
+
 a{
-	color: #26123a;
+	color: var(--text);
 	font-weight: bold;
 }
